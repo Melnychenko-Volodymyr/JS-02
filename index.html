@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="./style/main.css">
+	<title>JS заняття 2</title>
+</head>
+<body>
+	
+	<div class="container">
+        <p class="naimen">
+			Ноутбук Lenovo IdeaPad 3 15ALC 
+		</p>
+
+		<div class="cont1">
+			<div class="picture">
+			</div>
+			<div class="about">
+				<b>Короткий опис:</b><br><br>
+					15.6, 1920х1080 (FullHD), IPS, AMD Ryzen 5 5500U 
+					(2.1 - 4.0 GHz), 8 ГБ, SSD - 512 ГБ, AMD Radeon 
+					Graphics, Windows 11 Home, TPM модуль, 1.65 кг, сірий
+			</div>
+		</div>
+
+		<div class="cont2">
+			<div class="text_cina">
+				Ціна :
+			</div>
+			<input class="inp_cina" type="number" placeholder="21000">
+			<select id="select" class="select_cina">
+				<option value=1 selected> UAH </option>
+				<option value=2>USD</option>
+				<option value=3>EUR</option>
+			</select>
+			<div class="kurs">
+				1$ = 40.50 грн
+			</div>
+			<div class="cina_uah">
+				21000 грн
+			</div>
+		</div>
+
+		<div class="cont3">
+			<div class="text_kilk">
+				Кількість :
+			</div>
+			<button class="btn_minus">-</button>
+			<div class="kilk">
+				1
+			</div>
+			<button class="btn_plus">+</button>
+			<div class="text_sum">
+				Сума до сплати: 
+			</div>
+			<div class="sum">
+				21000 грн
+			</div>
+		</div>
+
+	</div>
+	
+
+<script src="./js/main.js"></script>	
+
+</body>
+</html>

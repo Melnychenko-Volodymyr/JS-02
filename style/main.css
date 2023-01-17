@@ -1,0 +1,102 @@
+.container {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 255, 0.514);
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: center;
+}
+.naimen {
+    font-size: 32px;
+    font-weight: 700;
+}
+.cont1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.picture {
+    width: 500px;
+    height: 300px;
+    background-image: url("../img/laptop.png");
+    background-position: center;
+    background-size: 60%;
+	background-repeat: no-repeat;
+}
+.about {
+    width: 400px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.cont2 {
+    display: flex;
+    justify-content: flex-start;
+}
+.text_cina {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 28px;
+}
+.inp_cina {
+    margin-left: 15px;
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+}
+.select_cina {
+    margin-left: 20px;
+    font-size: 24px;    
+}
+.kurs {
+    margin-left: 35px;
+    margin-top: 10px;
+    font-size: 28px;
+}
+.cina_uah {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.cont3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+.text_kilk {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.btn_minus {
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 32px;
+}
+.kilk {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+}
+.btn_plus {
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 32px;
+}
+.text_sum {
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 28px;
+}
+.sum {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+}
